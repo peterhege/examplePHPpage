@@ -3,6 +3,6 @@
 
 <?php
 
-    echo $setInIndexDotPhp;
+    echo "Hello ".$name."!";
 
 ?>

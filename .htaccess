@@ -1,5 +1,5 @@
 <ifmodule mod_rewrite.c>
 	RewriteEngine on
 	RewriteCond $1 !^(index\.php|src)
-	RewriteRule ^(.*)$ /medieval/index.php?url=$1 [L]
+	RewriteRule ^(.*)$ /examplephppage/index.php?url=$1 [L]
 </ifmodule>
